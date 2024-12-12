@@ -5,7 +5,7 @@ import { useState } from "react";
 const Navbar = () => {
   const navigate = useNavigate();
 
-  const [shoeMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
   const [token, setToken] = useState(true);
 
   return (
